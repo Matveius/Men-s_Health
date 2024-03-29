@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 header {
-    width: 1440px;
-    height: 80px;
+    width: 1360px;
+    height: 44px;
+    padding: 18px 40px;
 }
 
 body {
@@ -10,28 +11,44 @@ body {
     height: 8662px;
     background: #FFF;
     margin: 0;
-}
-
-main {
-    
     font-family: Roboto;
 }
 
 nav {
     display: flex;
     height: 44px;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     align-items: center;
     gap: 313px;
+    color: #0B3B3C;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 .left-nav-menu {
     display: flex;
-    height: 100%;
+    width: 287px;
+    height: 16px;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.right-nav-menu{
+    display: flex;
+    width: 287px;
+    height: 16px;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    gap: 34px;
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 .first-section {
@@ -103,7 +120,7 @@ h1 {
 .second-button{
     width: 320px;
     height: 45px;
-    border-color: #7E0707;
+    border: 2px solid #7E0707;
     background: transparent;
 }
 
@@ -128,3 +145,140 @@ h1 {
     letter-spacing: 2.1px;
     text-transform: uppercase;
 }
+
+.second-section {
+    display: flex;
+    width: 1440px;
+    height: 141px;
+    align-items: center;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1380px;
+    height: 80px;
+    padding: 0px 30px 0px 30px;
+    align-items: center;
+    gap: 14px;
+}
+
+.element {
+    display: flex;
+    padding: 15px 82px 15px 15px;
+    gap: 14px;
+    align-items: center;
+
+}
+
+.element p {
+    color: #0B3B3C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px; /* 181.25% */
+}
+
+.third-section {
+    width: 1210px;
+    height: 877px;
+    align-items: center;
+    padding: 80px 115px 20px 115px;
+}
+
+.healthcare-section {
+    width: 1210px;
+    height: 877px;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.title {
+    width: 408px;
+    height: 140px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title h2 {
+    margin: 0;
+    color: #0B3B3C;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px; /* 171.429% */
+    letter-spacing: 1.2px;
+}
+
+.title img {
+    width: 160px;
+    height: 30px;
+}
+
+.title p {
+    color: #00B67A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    margin: 0;
+}
+
+.pictures {
+    width: 1130px;
+    height: 486px;
+    flex-direction: row;
+    display: flex;
+}
+
+.picture {
+    width: 376.656px;
+    height: 446px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.picture p {
+    width: 326px;
+    height: 128px;
+    color: #0B3B3C;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    margin: 0;
+}
+
+.picture-and-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.picture-and-heading h3 {
+    width: 220px;
+    color: #0B3B3C;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px; /* 160% */
+    letter-spacing: 0.84px;
+    margin: 0;
+}
+
+.picture-2 {
+    margin-top: 0px;
+}
+.picture-3 {
+    margin-top: 35px;
+}
+
